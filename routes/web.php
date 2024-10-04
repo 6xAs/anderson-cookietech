@@ -18,19 +18,20 @@ Route::get('/gerenciar-receitas', function () {
 
 
 
-################  ROTAS CHEFE ############## (JEHE🤑)
-Route::get('/gerenciar-chefe', function () {
-    return view('pages.chefe.index');
+################  ROTAS JHE ############## (JEHE🤑)
+Route::get('/rota-jhenniffer', function () {
+    return view('pages.jhenniffer.index');
 });
 
 
-################  ROTAS JÚLIA ############## (JHE🤑)
+################  ROTAS JHE ############## (JHE🤑)
 
-################  ROTAS CHEFE ############## (JÚLIA🤑)
-Route::get('/index-julia', function () {
+
+
+
+################  ROTAS JÚLIA ############## (JÚLIA🤑)
+Route::get('/rota-julia', function () {
     return view('pages.julia.index');
 });
-
-
 
 ################  ROTAS JÚLIA ############## (JÚLIA🤑)
