@@ -24,5 +24,13 @@ Route::get('/gerenciar-chefe', function () {
 });
 
 
+################  ROTAS JÚLIA ############## (JHE🤑)
 
-################  ROTAS CHEFE ############## (JHE🤑)
+################  ROTAS CHEFE ############## (JÚLIA🤑)
+Route::get('/index-julia', function () {
+    return view('pages.julia.index');
+});
+
+
+
+################  ROTAS JÚLIA ############## (JÚLIA🤑)
